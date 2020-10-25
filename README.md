@@ -14,3 +14,5 @@ Putting it all together:
 docker run -d --name groovy-graphite-api -p 8000:8000 -v /var/lib/graphite/whisper:/var/lib/graphite/whisper -v
 /etc/timzeone:/etc/timezone:ro kfiresmith/groovy-graphite-api:0.1
 ```
+
+Tested on Ubuntu 20.04 as a container host.
